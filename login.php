@@ -96,18 +96,31 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    <label for="alamat" class="col-md-3 control-label">Address</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="alamat" placeholder="Address">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lahir" class="col-md-3 control-label">Tanggal Lahir</label>
+                                    <div class="col-md-9">
+                                        <input type="date" name="bday">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="file" class="col-md-3 control-label">Avatar</label>
+                                    <div class="col-md-9">
+                                          <input type="file" name="pic" accept="image/*">
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     <label for="password" class="col-md-3 control-label">Password</label>
                                     <div class="col-md-9">
                                         <input type="password" class="form-control" name="passwd" placeholder="Password">
                                     </div>
                                 </div>
                                     
-                                <div class="form-group">
-                                    <label for="icode" class="col-md-3 control-label">Invitation Code</label>
-                                    <div class="col-md-9">
-                                        <input type="text" class="form-control" name="icode" placeholder="">
-                                    </div>
-                                </div>
+                                
 
                                 <div class="form-group">
                                     <!-- Button -->                                        
